@@ -22,7 +22,7 @@ class PostController extends Controller
             'image_name' => 'required|file|image|mimes:jpeg,jpg,png',
             'id_name' => 'nullable',
             'tag_type' => 'nullable',
-            'tag_no' => 'required',
+            'tag_no' => 'nullable',
             'carapace_length' => 'nullable',
             'carapace_width' => 'nullable',
             'take_date' => 'required',
